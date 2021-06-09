@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+    <body>
+      <header id="mainHeader">
+          <nav>
+              <h2 class="hidden">Dynamic Team page</h2>
+              <ul class="tabs">
+                  <li class="tab is-active">
+                    <a data-switcher data-tab="Developer">Developer</a>
+                  </li>
+
+                  <li class="tab">
+                    <a data-switcher data-tab="Designer">Designer</a>
+                  </li>
+              </ul>
+          </nav>
+      </header>
+
+      <main>
+        <section class="pages">
+          <div class="page is-active" data-page="Developer">
+              <h2>Issakhanova Gaukhar #1</h2>
+              <section class="mainBox">
+                <img src="images/developer.jpg" alt="developer" width="700" height="700">
+                <section class="textBox">
+                  <p>
+                    Hi. I am a student of Fanshawe College. My specialty is Interactive Media Design. I started to learn developing in January and finish my first semester. I learned HTML, CSS, and a little JS. So I am a developer of this page.
+                  </p>
+
+                  <form action="mailto:gauharaisahanova@gmail.com" target="_blank">
+                    <button><b>Contact us</b></button>
+                   </form>
+                </section>
+              </section>
+          </div>
+
+          <div class="page" data-page="Designer">
+              <h2>Issakhanova Gaukhar #2</h2>
+              <section class="mainBox">
+              <img src="images/designer.jpg" alt="designer" width="700" height="700">
+                 <section class="textBox">
+                   <p>
+                     Hi. It is also me. And I am a designer of this page. I am also learning programs such as Photoshop, Illustrator, Adobe XD and Cinema 4D. Before my studies, I had an experience only with a simple constructor like a Figma.
+                  </p>
+                  <form action="mailto:gauharaisahanova@gmail.com" target="_blank">
+                    <button><b>Contact us</b></button>
+                   </form>
+                </section>
+              </section>
+          </div>
+        </section>
+      </main>
+      <script src="js/main.js">
+
+      </script>
+    </body>
+</html>
